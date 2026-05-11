@@ -1,8 +1,7 @@
 {
-    "title": "User Settings",
-    "url": "https://github.com/NeonGeckoCom/skill-user_settings",
+    "title": "neon-skill-user_settings",
+    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
     "summary": "Have Neon help you change and control your user settings.",
-    "short_description": "Have Neon help you change and control your user settings.",
     "description": "Neon can help you control your user preference settings via this skill.",
     "examples": [
         "Change my units to metric.",
@@ -39,19 +38,38 @@
         "Change my secondary language to Ukrainian.",
         "No secondary language."
     ],
-    "desktopFile": false,
-    "warning": "",
-    "systemDeps": false,
+    "credits": [
+        "Neongecko"
+    ],
+    "categories": [
+        "Configuration",
+        "Daily"
+    ],
+    "tags": [],
+    "category": "Configuration",
+    "package_name": "neon-skill-user_settings",
+    "pip_spec": "neon-skill-user_settings",
+    "license": "BSD-3-Clause",
+    "author": "Neongecko",
+    "version": "1.1.0",
+    "url": "https://github.com/NeonGeckoCom/skill-user_settings",
+    "skill_id": "skill-user_settings.neongeckocom=skill_user_settings:UserSettingsSkill",
+    "skillname": "skill-user_settings",
+    "authorname": "NeonGeckoCom",
+    "name": "neon-skill-user_settings",
     "requirements": {
         "python": [
             "neon-utils~=1.12",
-            "ovos-bus-client~=0.0,>=0.0.3",
             "ovos-utils~=0.0,>=0.0.32",
+            "ovos-bus-client~=0.0,>=0.0.3",
             "ovos-workshop~=0.0,>=0.0.15"
         ],
         "system": {},
         "skill": []
     },
+    "desktopFile": false,
+    "warning": "",
+    "systemDeps": false,
     "incompatible_skills": [],
     "platforms": [
         "i386",
@@ -61,23 +79,6 @@
         "arm"
     ],
     "branch": "master",
-    "license": "BSD-3-Clause",
-    "icon": "https://0000.us/klatchat/app/files/neon_images/icons/neon_skill.png",
-    "category": "Configuration",
-    "categories": [
-        "Configuration",
-        "Daily"
-    ],
-    "tags": [
-        "NeonGecko Original",
-        "NeonAI"
-    ],
-    "credits": [
-        "NeonDaniel",
-        "reginaneon",
-        "NeonGeckoCom"
-    ],
-    "skillname": "skill-user_settings",
-    "authorname": "NeonGeckoCom",
-    "foldername": null
+    "foldername": null,
+    "short_description": "Have Neon help you change and control your user settings."
 }
