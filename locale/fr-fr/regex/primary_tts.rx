@@ -1,0 +1,1 @@
+(principal|premier|principale).*?\b langue en (?P<rx_primary>.*?(?=(et|\n))).*

@@ -1,0 +1,1 @@
+(est|à) (?P<rx_setting>.*)

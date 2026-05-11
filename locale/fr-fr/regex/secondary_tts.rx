@@ -1,0 +1,1 @@
+(secondaire|deuxième).*\b langue en (?P<rx_secondary>.*?(?=(et|\n))).*
